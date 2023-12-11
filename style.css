@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(57, 67, 82) ;
+}
+textarea{
+    resize: none;
+    padding: 1.5rem 0.5rem;
+    width: 455px;
+    height: 150px;
+    border-radius: 15px;
+    font-size: 2rem;
+    text-align: end;
+    background-color: rgb(53, 50, 50);
+    color: aliceblue;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.head{
+    width: 100%;
+    min-height: 100vh;
+}
+.mainrow{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ min-height: 100vh;
+}
+.rowset{
+    padding: 2rem 2rem ;
+    background-color: rgb(74, 98, 129);
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+   
+}
+
+button{
+    font-size: 2rem;
+    padding: 0.5rem 2.5rem;
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    border-radius: 15px;
+    border: none;
+    
+}
+button:hover{
+    background-color: rgba(127, 136, 143);
+    color: beige;
+}
+button p{
+    font-size: 1.5rem;
+    padding: 0.25rem 2.5rem;
+    
+}
+.last{
+    flex-flow: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.lastbtn{
+    font-size: 2rem;
+        padding: 0.5rem 5.75rem;
+        max-width: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        border: none;
+}
+.last :first-child{
+    background-color: rgb(35, 49, 71);
+    color: aliceblue;
+    font-weight: bold;
+}
+.last :last-child {
+    background-color: rgb(230, 25, 25);
+    color: aliceblue;
+    font-weight: bold;
+}
+#pp{
+    background-color: rgb(35, 49, 71);
+        color: aliceblue;
+        font-weight: bold;
+}
